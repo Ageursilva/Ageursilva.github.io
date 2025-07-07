@@ -3,40 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ageu
-    </title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <title>Ageu Silva | Desenvolvedor de Software</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="icon" href="/img/faveicon.ico">
 </head>
 <body>
-    <div class="container">
-        <img src="/img/foto.jpg" alt="Ageu Silva">
-        <h1>Ageu Silva</h1>
-        <div class="social-icons">
-            <a href="https://github.com/Ageursilva" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-            <a href="https://linkedin.com/in/ageursilva" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-            <a href="https://ageu.tech/" target="_blank" title="Blog"><i class="fas fa-blog"></i></a>
-        </div>
-        <h2>Tentando mudar o mundo a partir de binários</h2>
-        <p>Sou apaixonado por tecnologia e estou sempre em busca de aprender novas habilidades. Atualmente, trabalho na TOTVS como analista especializado em ERP e soluções fiscais eletrônicas. Sou formado em Gestão da Tecnologia da Informação e pós-graduado em cybersecurity. Atualmente, sou estudante de Engenharia de Software na Universidade Católica de Brasília e desenvolvedor de software com foco em python.</p>
-        <div class="technologies">
-            <h2>Tecnologias</h2>
-            <div class="tech-icons">
-                <i class="fab fa-python" title="Python"></i>
-                <i class="fab fa-html5" title="HTML5"></i>
-                <i class="fab fa-css3" title="CSS3"></i>
-                <i class="fab fa-js" title="JavaScript"></i>
-                <i class="fab fa-linux" title="Linux"></i>
-                <i class="fab fa-windows" title="Windows"></i>
-                <i class="fas fa-file-code" title="XML"></i>
-                <i class="fas fa-network-wired" title="ERP"></i>
-                <i class="fas fa-shield-alt" title="Cybersecurity"></i>                
+
+    <main class="container">
+        <header>
+            <img src="/img/foto.jpg" alt="Ageu Silva">
+            <h1>Ageu Silva</h1>
+            <h2>Tentando mudar o mundo a partir de binários</h2>
+            <div class="social-icons">
+                <a href="https://github.com/Ageursilva" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/ageursilva" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://ageu.tech/" target="_blank" title="Blog"><i class="fas fa-blog"></i></a>
             </div>
-            <br>
-            <br><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt-br" target="_blank">CC BY-NC-SA 4.0</a>
-        </div>
-    </div>
-    
+        </header>
+
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Sou apaixonado por tecnologia e estou sempre em busca de aprender novas habilidades. Atualmente, trabalho na TOTVS como analista especializado em ERP e soluções fiscais eletrônicas. Sou formado em Gestão da Tecnologia da Informação e pós-graduado em cybersecurity.</p>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos em Destaque</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>AgeuBlog - Jardim Digital</h3>
+                    <p>Um sistema de blog completo e seguro, com foco em segurança (proteção CSRF e XSS), SEO (Sitemap e RSS dinâmicos) e uma ótima experiência de escrita com editor QuillJS.</p>
+                    <div class="project-tech">
+                        <span>Python</span> <span>Flask</span> <span>SQLAlchemy</span> <span>JS</span> <span>Flask-WTF</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Ageursilva/ageublog" target="_blank">Código Fonte <i class="fab fa-github"></i></a>
+                        <a href="https://ageu.tech/" target="_blank">Ver Blog <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <h3>Aplicativo de Jogo "Eu Nunca"</h3>
+                    <p>Aplicativo desktop "Eu Nunca", desenvolvido para ser uma forma divertida e interativa de animar reuniões. As frases do jogo são carregadas a partir de um arquivo JSON externo.</p>
+                    <div class="project-tech">
+                        <span>Python</span> <span>Kivy</span> <span>KivyMD</span> <span>Desktop App</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Ageursilva/EuNunca" target="_blank">Código Fonte <i class="fab fa-github"></i></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="tecnologias">
+            <h2>Minha Stack de Tecnologias</h2>
+            <div class="tech-grid">
+                <div class="tech-item"><i class="fab fa-python"></i><span>Python</span></div>
+                <div class="tech-item"><i class="fab fa-js-square"></i><span>JavaScript</span></div>
+                <div class="tech-item"><i class="fas fa-database"></i><span>SQL</span></div>
+                <div class="tech-item"><i class="fab fa-node-js"></i><span>Node.js</span></div>
+                <div class="tech-item"><i class="fas fa-server"></i><span>Flask</span></div>
+                <div class="tech-item"><i class="fab fa-linux"></i><span>Linux</span></div>
+                <div class="tech-item"><i class="fab fa-git-alt"></i><span>Git</span></div>
+                <div class="tech-item"><i class="fas fa-rocket"></i><span>APIs (Postman)</span></div>
+            </div>
+        </section>
+        <section id="contato">
+            <h2>Vamos Conversar?</h2>
+            <p>Estou sempre aberto a novas oportunidades e colaborações. Sinta-se à vontade para entrar em contato.</p>
+            <a href="mailto:ageu@duck.com" class="cta-button">Enviar um E-mail</a>
+        </section>
+    </main>
+
+    <footer>
+        <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt-br" target="_blank">CC BY-NC-SA 4.0</a> | Ageu Silva</p>
+    </footer>
+
 </body>
 </html>
