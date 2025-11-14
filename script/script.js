@@ -2,8 +2,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const lines = [
         `<span class="syntax-comment">/**`,
-        `<span class="syntax-comment"> * Olá! Eu sou o Ageu Silva.`,
-        `<span class="syntax-comment"> * Bem-vindo ao meu portfólio interativo.`,
+        `<span class="syntax-comment"> * @author Ageu Silva`,
+        `<span class="syntax-comment"> * @date 2025`,
+        `<span class="syntax-comment"> * @description Portfólio pessoal`,
+        `<span class="syntax-comment"> * @version 1.0`,
         `<span class="syntax-comment"> */</span>`,
         ``,
         `<span class="syntax-keyword">const</span> <span class="syntax-variable">ageuSilva</span> = {`,
